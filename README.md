@@ -1,6 +1,6 @@
 # Custom AI Content Generation SaaS (WordPress)
 
-This repository contains the `wp-content` directory and theme/plugin codebase for **[omniscribeai.com](https://omniscribeai.com)**, a custom AI Content Generation SaaS built on WordPress.
+This repository contains the `wp-content` directory and theme/plugin codebase for **[omniscribeai.com]**, a custom AI Content Generation SaaS built on WordPress.
 
 ## 🚀 Repository Contents
 
