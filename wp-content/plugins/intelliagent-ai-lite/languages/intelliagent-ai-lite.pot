@@ -1,0 +1,1456 @@
+# Copyright (C) 2026 IntelliAgent AI
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: IntelliAgent AI Lite 1.0.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/intelliagent-ai-lite\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-04-04T08:53:39+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: intelliagent-ai-lite\n"
+
+#. Plugin Name of the plugin
+#: intelliagent-ai-lite.php
+msgid "IntelliAgent AI Lite"
+msgstr ""
+
+#. Description of the plugin
+#: intelliagent-ai-lite.php
+msgid "AI-powered chat assistant with WooCommerce support and website knowledge. Automate customer support, product recommendations, and FAQ syncing with more features."
+msgstr ""
+
+#. Author of the plugin
+#: intelliagent-ai-lite.php
+msgid "IntelliAgent AI"
+msgstr ""
+
+#. Author URI of the plugin
+#: intelliagent-ai-lite.php
+msgid "https://aica-intelliagent.com/"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:91
+#: admin/class-inteaili-admin.php:92
+#: admin/class-inteaili-admin.php:435
+#: admin/partials/dashboard.php:38
+msgid "Dashboard"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:100
+#: admin/class-inteaili-admin.php:101
+#: admin/partials/feedback-dashboard.php:34
+msgid "Feedback & Training"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:109
+#: admin/class-inteaili-admin.php:110
+msgid "Verified FAQs"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:118
+#: admin/class-inteaili-admin.php:119
+#: admin/class-inteaili-admin.php:452
+#: admin/partials/admin-settings.php:34
+msgid "Settings"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:127
+#: admin/class-inteaili-admin.php:128
+#: admin/partials/status-dashboard.php:29
+#: admin/partials/status-dashboard.php:53
+#: admin/partials/status-dashboard.php:92
+#: includes/woo/class-inteaili-woocommerce.php:137
+msgid "Status"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:136
+#: admin/class-inteaili-admin.php:137
+#: admin/partials/support-dashboard.php:25
+msgid "Support & Features"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:145
+#: admin/class-inteaili-admin.php:146
+#: admin/class-inteaili-admin.php:786
+#: admin/partials/component/header/admin-header.php:52
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:218
+#: admin/class-inteaili-admin.php:248
+#: admin/class-inteaili-admin.php:307
+#: admin/class-inteaili-admin.php:413
+#: admin/class-inteaili-admin.php:507
+#: admin/class-inteaili-admin.php:530
+#: admin/class-inteaili-admin.php:560
+msgid "Unauthorized"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:223
+msgid "Invalid ID"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:228
+msgid "Log deleted successfully"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:230
+msgid "Database deletion failed"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:256
+msgid "No logs found."
+msgstr ""
+
+#: admin/class-inteaili-admin.php:265
+#: includes/woo/class-inteaili-woocommerce.php:133
+msgid "ID"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:266
+msgid "Date"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:267
+msgid "Transcript"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:276
+#: admin/class-inteaili-admin.php:872
+msgid "Visitor"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:276
+#: admin/class-inteaili-admin.php:873
+msgid "AI Agent"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:350
+#: admin/class-inteaili-admin.php:364
+#: admin/class-inteaili-admin.php:396
+#: admin/class-inteaili-admin.php:881
+#: includes/class-inteaili-system-status.php:80
+#: includes/class-inteaili-system-status.php:84
+msgid "Synced"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:350
+#: admin/class-inteaili-admin.php:364
+#: admin/class-inteaili-admin.php:882
+msgid "Pending"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:418
+msgid "Sync completed successfully!"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:420
+msgid "Cron class not found."
+msgstr ""
+
+#: admin/class-inteaili-admin.php:436
+msgid "Welcome to the AICA IntelliAgent system."
+msgstr ""
+
+#: admin/class-inteaili-admin.php:453
+msgid "Settings file not found. Please check the plugin installation."
+msgstr ""
+
+#: admin/class-inteaili-admin.php:517
+msgid "Feedback not found"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:568
+msgid "Delete failed"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:678
+#: admin/class-inteaili-admin.php:808
+#: admin/partials/component/header/admin-header.php:47
+msgid "Support"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:679
+msgid "For support, please visit our website."
+msgstr ""
+
+#: admin/class-inteaili-admin.php:727
+msgid "IntelliAgent AI Lite: Setup Required"
+msgstr ""
+
+#. translators: 1: opening anchor tag, 2: closing anchor tag
+#: admin/class-inteaili-admin.php:735
+#, php-format
+msgid "No AI Engine detected. %1$sConfigure your API Key%2$s (OpenAI, or Gemini) to start chatting."
+msgstr ""
+
+#: admin/class-inteaili-admin.php:807
+#: admin/partials/support-dashboard.php:36
+msgid "Documentation"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:874
+msgid "Deleting..."
+msgstr ""
+
+#: admin/class-inteaili-admin.php:875
+msgid "Saving..."
+msgstr ""
+
+#: admin/class-inteaili-admin.php:876
+msgid "Chat Summary"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:877
+msgid "Delete this conversation forever?"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:878
+msgid "Delete this faq forever?"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:879
+msgid "Pages"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:880
+msgid "Products"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:883
+msgid "Everything Up to Date"
+msgstr ""
+
+#. translators: %s = number of pages waiting for sync
+#: admin/class-inteaili-admin.php:885
+#, php-format
+msgid "Sync %s Pending Pages"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:886
+msgid "Syncing..."
+msgstr ""
+
+#: admin/class-inteaili-admin.php:887
+msgid "Processing:"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:888
+msgid "Just now"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:889
+msgid "This will replace your current instructions with a new AI-generated version based on your website content. Proceed?"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:890
+msgid "Select Avatar"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:891
+msgid "Use this Image"
+msgstr ""
+
+#: admin/class-inteaili-admin.php:892
+msgid "Error during discovery"
+msgstr ""
+
+#: admin/partials/admin-settings.php:37
+msgid "add"
+msgstr ""
+
+#: admin/partials/admin-settings.php:45
+msgid "You have unsaved changes"
+msgstr ""
+
+#: admin/partials/admin-settings.php:48
+msgid "Discard"
+msgstr ""
+
+#: admin/partials/admin-settings.php:49
+msgid "Save Changes"
+msgstr ""
+
+#: admin/partials/admin-settings.php:55
+msgid "Content"
+msgstr ""
+
+#: admin/partials/admin-settings.php:58
+msgid "Style"
+msgstr ""
+
+#: admin/partials/admin-settings.php:61
+msgid "Website & Store Sync"
+msgstr ""
+
+#: admin/partials/admin-settings.php:64
+#: includes/class-inteaili-system-status.php:87
+msgid "AI Persona"
+msgstr ""
+
+#: admin/partials/admin-settings.php:67
+#: admin/partials/dashboard.php:65
+#: includes/class-inteaili-system-status.php:104
+msgid "AI Engine"
+msgstr ""
+
+#: admin/partials/component/ai-engine-settings.php:41
+msgid "AI Engine Configuration"
+msgstr ""
+
+#: admin/partials/component/ai-engine-settings.php:47
+msgid "Primary AI Provider"
+msgstr ""
+
+#: admin/partials/component/ai-engine-settings.php:51
+msgid "OpenAI GPT"
+msgstr ""
+
+#: admin/partials/component/ai-engine-settings.php:52
+msgid "Google Gemini"
+msgstr ""
+
+#: admin/partials/component/ai-engine-settings.php:54
+msgid "Choose the primary AI engine to power your agent’s reasoning, tool execution, and content generation."
+msgstr ""
+
+#: admin/partials/component/ai-engine-settings.php:61
+msgid "OpenAI Settings"
+msgstr ""
+
+#: admin/partials/component/ai-engine-settings.php:66
+msgid "OpenAI API Key"
+msgstr ""
+
+#. translators: %s: Link to the OpenAI Developer Dashboard.
+#: admin/partials/component/ai-engine-settings.php:74
+#, php-format
+msgid "Access your secret keys via the %s."
+msgstr ""
+
+#: admin/partials/component/ai-engine-settings.php:75
+msgid "OpenAI Developer Dashboard"
+msgstr ""
+
+#: admin/partials/component/ai-engine-settings.php:83
+msgid "OpenAI Model Selection"
+msgstr ""
+
+#: admin/partials/component/ai-engine-settings.php:88
+msgid "GPT-5.4 (Recommended - Latest Stable)"
+msgstr ""
+
+#: admin/partials/component/ai-engine-settings.php:91
+msgid "GPT-5.2 (Stable Reasoning)"
+msgstr ""
+
+#: admin/partials/component/ai-engine-settings.php:94
+msgid "GPT-4.1 (Stable - High Intelligence)"
+msgstr ""
+
+#: admin/partials/component/ai-engine-settings.php:97
+msgid "GPT-4.1 Mini (Stable - Fast)"
+msgstr ""
+
+#: admin/partials/component/ai-engine-settings.php:104
+#: admin/partials/component/ai-engine-settings.php:159
+msgid "Sampling Temperature"
+msgstr ""
+
+#: admin/partials/component/ai-engine-settings.php:108
+#: admin/partials/component/ai-engine-settings.php:163
+msgid "Fine-tune the creativity of the model. Use 0.0 for coding and 1.0+ for creative writing."
+msgstr ""
+
+#: admin/partials/component/ai-engine-settings.php:116
+msgid "Google Gemini Settings"
+msgstr ""
+
+#: admin/partials/component/ai-engine-settings.php:121
+msgid "Gemini API Key"
+msgstr ""
+
+#. translators: %s: Link to Google AI Studio dashboard.
+#: admin/partials/component/ai-engine-settings.php:129
+#, php-format
+msgid "Retrieve your API credentials from %s."
+msgstr ""
+
+#: admin/partials/component/ai-engine-settings.php:130
+msgid "Google AI Studio"
+msgstr ""
+
+#: admin/partials/component/ai-engine-settings.php:138
+msgid "Gemini Model Selection"
+msgstr ""
+
+#: admin/partials/component/ai-engine-settings.php:143
+msgid "Gemini 2.5 Pro (Recommended)"
+msgstr ""
+
+#: admin/partials/component/ai-engine-settings.php:146
+msgid "Gemini 2.5 Flash (Stable - Optimized Speed)"
+msgstr ""
+
+#: admin/partials/component/ai-engine-settings.php:149
+msgid "Gemini 3.1 Pro (Advanced Reasoning)"
+msgstr ""
+
+#: admin/partials/component/ai-engine-settings.php:152
+msgid "Gemini 3.1 Flash-Lite (Fastest & Budget Friendly)"
+msgstr ""
+
+#: admin/partials/component/ai-engine-settings.php:172
+msgid "Save AI Configuration"
+msgstr ""
+
+#: admin/partials/component/ai-persona-settings.php:27
+msgid "AI Behavior & Persona"
+msgstr ""
+
+#: admin/partials/component/ai-persona-settings.php:33
+msgid "System Role Instructions"
+msgstr ""
+
+#: admin/partials/component/ai-persona-settings.php:38
+msgid "Define how the AI should act, its tone of voice, and any specific constraints it must follow. This acts as the 'brain' for all agent interactions."
+msgstr ""
+
+#: admin/partials/component/ai-persona-settings.php:44
+msgid "Analyzing website data to craft a custom persona..."
+msgstr ""
+
+#: admin/partials/component/ai-persona-settings.php:52
+msgid "You are a helpful AI assistant for this website..."
+msgstr ""
+
+#: admin/partials/component/ai-persona-settings.php:55
+msgid "Enter system instructions here..."
+msgstr ""
+
+#: admin/partials/component/ai-persona-settings.php:58
+msgid "Tip: Leave this field empty to use the default AI Persona for the system."
+msgstr ""
+
+#: admin/partials/component/ai-persona-settings.php:65
+msgid "Update AI Persona"
+msgstr ""
+
+#: admin/partials/component/content-settings.php:19
+#: public/partials/chat-template.php:20
+msgid "AI Assistant"
+msgstr ""
+
+#: admin/partials/component/content-settings.php:20
+#: public/partials/chat-template.php:21
+msgid ""
+"Hi there! I'm your friendly AI Assistant.\n"
+"How can I help you today?"
+msgstr ""
+
+#: admin/partials/component/content-settings.php:21
+msgid "Type a message..."
+msgstr ""
+
+#: admin/partials/component/content-settings.php:38
+msgid "General Content"
+msgstr ""
+
+#: admin/partials/component/content-settings.php:44
+msgid "Display Name"
+msgstr ""
+
+#: admin/partials/component/content-settings.php:48
+msgid "This name appears at the top of the chat window and above AI responses."
+msgstr ""
+
+#: admin/partials/component/content-settings.php:54
+msgid "Initial Welcome Message"
+msgstr ""
+
+#: admin/partials/component/content-settings.php:58
+msgid "The first message the user sees. Use new lines to create multiple chat bubbles."
+msgstr ""
+
+#: admin/partials/component/content-settings.php:63
+msgid "Message Placeholder"
+msgstr ""
+
+#: admin/partials/component/content-settings.php:67
+msgid "The hint text shown in the input box before the user starts typing."
+msgstr ""
+
+#: admin/partials/component/content-settings.php:72
+msgid "Display Attribution"
+msgstr ""
+
+#: admin/partials/component/content-settings.php:80
+msgid "Show \"Powered by IntelliAgent AI\" at the bottom of the chat widget."
+msgstr ""
+
+#: admin/partials/component/content-settings.php:88
+msgid "Save Content Settings"
+msgstr ""
+
+#: admin/partials/component/knowledge-sync-settings.php:19
+msgid "Knowledge Base & Store Sync"
+msgstr ""
+
+#: admin/partials/component/knowledge-sync-settings.php:24
+msgid "WooCommerce Detected"
+msgstr ""
+
+#: admin/partials/component/knowledge-sync-settings.php:29
+msgid "WooCommerce Not Detected"
+msgstr ""
+
+#: admin/partials/component/knowledge-sync-settings.php:34
+msgid "Discovering..."
+msgstr ""
+
+#: admin/partials/component/knowledge-sync-settings.php:44
+msgid "Scanning Pages & Product Catalog..."
+msgstr ""
+
+#: admin/partials/component/knowledge-sync-settings.php:49
+msgid "Analyzing Content..."
+msgstr ""
+
+#: admin/partials/component/knowledge-sync-settings.php:60
+msgid "Scrape Successful! Knowledge base is now synchronized."
+msgstr ""
+
+#: admin/partials/component/knowledge-sync-settings.php:69
+msgid "Source Name"
+msgstr ""
+
+#: admin/partials/component/knowledge-sync-settings.php:70
+msgid "Type"
+msgstr ""
+
+#: admin/partials/component/knowledge-sync-settings.php:71
+msgid "Sync Status"
+msgstr ""
+
+#: admin/partials/component/knowledge-sync-settings.php:81
+msgid "Re-scan Website"
+msgstr ""
+
+#: admin/partials/component/knowledge-sync-settings.php:94
+msgid "Automated Sync Engine"
+msgstr ""
+
+#. translators: %s: relative time ago
+#: admin/partials/component/knowledge-sync-settings.php:100
+#, php-format
+msgid "Last backup completed %s ago"
+msgstr ""
+
+#: admin/partials/component/knowledge-sync-settings.php:104
+msgid "No background sync recorded yet"
+msgstr ""
+
+#: admin/partials/component/knowledge-sync-settings.php:112
+msgid "Next Scheduled Run"
+msgstr ""
+
+#: admin/partials/component/knowledge-sync-settings.php:118
+msgid "Paused / Not Scheduled"
+msgstr ""
+
+#: admin/partials/component/style-settings.php:27
+msgid "Visual Appearance"
+msgstr ""
+
+#: admin/partials/component/style-settings.php:33
+msgid "Profile Image (Avatar)"
+msgstr ""
+
+#: admin/partials/component/style-settings.php:45
+msgid "AI Avatar Preview"
+msgstr ""
+
+#: admin/partials/component/style-settings.php:50
+msgid "Change Avatar"
+msgstr ""
+
+#: admin/partials/component/style-settings.php:51
+msgid "Remove Image"
+msgstr ""
+
+#. translators: 1: Image formats, 2: Open strong tag, 3: Close strong tag
+#: admin/partials/component/style-settings.php:58
+#, php-format
+msgid "%1$s, up to 1MB. Ideal size: %2$s535 x 535 pixels%3$s."
+msgstr ""
+
+#: admin/partials/component/style-settings.php:65
+msgid "Used as the AI icon in chat responses and optionally on the chat trigger."
+msgstr ""
+
+#: admin/partials/component/style-settings.php:71
+msgid "Chat Launcher Icon"
+msgstr ""
+
+#: admin/partials/component/style-settings.php:75
+msgid "Default Message Icon"
+msgstr ""
+
+#: admin/partials/component/style-settings.php:76
+msgid "Use Profile Image"
+msgstr ""
+
+#: admin/partials/component/style-settings.php:78
+msgid "Select what displays on the floating button at the bottom of the screen."
+msgstr ""
+
+#: admin/partials/component/style-settings.php:83
+msgid "Primary Brand Color"
+msgstr ""
+
+#: admin/partials/component/style-settings.php:99
+msgid "Reset to Black"
+msgstr ""
+
+#: admin/partials/component/style-settings.php:104
+msgid "This color is used for the chat bubble launcher and user message backgrounds."
+msgstr ""
+
+#: admin/partials/component/style-settings.php:109
+msgid "Widget Theme Mode"
+msgstr ""
+
+#: admin/partials/component/style-settings.php:116
+msgid "Light Mode"
+msgstr ""
+
+#: admin/partials/component/style-settings.php:117
+msgid "Dark Mode"
+msgstr ""
+
+#: admin/partials/component/style-settings.php:144
+msgid "Select the interface style. The preview on the right will update instantly."
+msgstr ""
+
+#: admin/partials/component/style-settings.php:152
+msgid "Save Visual Style"
+msgstr ""
+
+#: admin/partials/dashboard.php:51
+msgid "Total Conversations"
+msgstr ""
+
+#: admin/partials/dashboard.php:58
+msgid "Active (Last 7 Days)"
+msgstr ""
+
+#: admin/partials/dashboard.php:72
+#: public/partials/chat-template.php:70
+msgid "Recent Conversations"
+msgstr ""
+
+#: admin/partials/dashboard.php:75
+msgid "Export All to CSV"
+msgstr ""
+
+#: admin/partials/dashboard.php:78
+msgid "View All History"
+msgstr ""
+
+#: admin/partials/dashboard.php:85
+msgid "Session ID"
+msgstr ""
+
+#: admin/partials/dashboard.php:86
+msgid "Last Message Preview"
+msgstr ""
+
+#: admin/partials/dashboard.php:87
+msgid "Last Active"
+msgstr ""
+
+#: admin/partials/dashboard.php:88
+#: admin/partials/faq-dashboard.php:67
+#: admin/partials/feedback-dashboard.php:86
+msgid "Actions"
+msgstr ""
+
+#: admin/partials/dashboard.php:93
+msgid "No conversations recorded yet."
+msgstr ""
+
+#: admin/partials/dashboard.php:98
+msgid "No history"
+msgstr ""
+
+#. translators: %d = chat session ID
+#: admin/partials/dashboard.php:106
+#, php-format
+msgid "Chat #%d"
+msgstr ""
+
+#: admin/partials/dashboard.php:112
+msgid "Start:"
+msgstr ""
+
+#: admin/partials/dashboard.php:115
+msgid "Last:"
+msgstr ""
+
+#: admin/partials/dashboard.php:121
+msgid "View"
+msgstr ""
+
+#: admin/partials/dashboard.php:124
+msgid "Export CSV"
+msgstr ""
+
+#: admin/partials/dashboard.php:127
+msgid "Delete"
+msgstr ""
+
+#: admin/partials/dashboard.php:142
+msgid "Knowledge Sync Status"
+msgstr ""
+
+#: admin/partials/dashboard.php:146
+msgid "Sync Engine:"
+msgstr ""
+
+#: admin/partials/dashboard.php:147
+#: admin/partials/status-dashboard.php:138
+msgid "Active"
+msgstr ""
+
+#: admin/partials/dashboard.php:150
+msgid "Last Sync:"
+msgstr ""
+
+#. translators: %s = time ago
+#: admin/partials/dashboard.php:154
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#. translators: %s = time ago
+#: admin/partials/dashboard.php:155
+msgid "Never"
+msgstr ""
+
+#: admin/partials/dashboard.php:162
+msgid "Sync Knowledge Base"
+msgstr ""
+
+#: admin/partials/dashboard.php:169
+msgid "Manual Training"
+msgstr ""
+
+#: admin/partials/dashboard.php:173
+msgid "Add AI Feedback"
+msgstr ""
+
+#: admin/partials/dashboard.php:176
+msgid "Manage FAQ Data"
+msgstr ""
+
+#: admin/partials/dashboard.php:183
+msgid "AI Identity"
+msgstr ""
+
+#: admin/partials/dashboard.php:185
+msgid "Define how your AI responds to customers."
+msgstr ""
+
+#: admin/partials/dashboard.php:188
+msgid "Edit AI Persona"
+msgstr ""
+
+#: admin/partials/dashboard.php:195
+msgid "System Health"
+msgstr ""
+
+#: admin/partials/dashboard.php:199
+msgid "WP Cron:"
+msgstr ""
+
+#: admin/partials/dashboard.php:201
+#: includes/class-inteaili-system-status.php:61
+msgid "Enabled"
+msgstr ""
+
+#: admin/partials/dashboard.php:201
+#: includes/class-inteaili-system-status.php:61
+msgid "Disabled"
+msgstr ""
+
+#: admin/partials/dashboard.php:205
+msgid "Next Task:"
+msgstr ""
+
+#: admin/partials/dashboard.php:207
+#: includes/class-inteaili-system-status.php:92
+msgid "Not Scheduled"
+msgstr ""
+
+#: admin/partials/dashboard.php:219
+msgid "Conversation Transcript"
+msgstr ""
+
+#: admin/partials/dashboard.php:222
+msgid "Fetching conversation..."
+msgstr ""
+
+#: admin/partials/dashboard.php:226
+msgid "Close Window"
+msgstr ""
+
+#: admin/partials/faq-dashboard.php:35
+msgid "FAQ Management"
+msgstr ""
+
+#: admin/partials/faq-dashboard.php:38
+msgid "Add New FAQ"
+msgstr ""
+
+#: admin/partials/faq-dashboard.php:48
+msgid "Total FAQs"
+msgstr ""
+
+#: admin/partials/faq-dashboard.php:55
+msgid "Verified FAQ Database"
+msgstr ""
+
+#: admin/partials/faq-dashboard.php:57
+msgid "View All FAQs"
+msgstr ""
+
+#: admin/partials/faq-dashboard.php:64
+msgid "Title"
+msgstr ""
+
+#: admin/partials/faq-dashboard.php:65
+#: admin/partials/faq-dashboard.php:110
+#: includes/llm/class-inteaili-llm-processor.php:189
+msgid "Question"
+msgstr ""
+
+#: admin/partials/faq-dashboard.php:66
+#: admin/partials/faq-dashboard.php:115
+msgid "Answer"
+msgstr ""
+
+#: admin/partials/faq-dashboard.php:72
+msgid "No FAQs found."
+msgstr ""
+
+#: admin/partials/faq-dashboard.php:82
+msgid "Edit FAQ"
+msgstr ""
+
+#: admin/partials/faq-dashboard.php:85
+msgid "Delete FAQ"
+msgstr ""
+
+#: admin/partials/faq-dashboard.php:100
+msgid "Manage FAQ Entry"
+msgstr ""
+
+#: admin/partials/faq-dashboard.php:105
+msgid "Internal Title"
+msgstr ""
+
+#: admin/partials/faq-dashboard.php:106
+msgid "e.g. Refund Policy Info"
+msgstr ""
+
+#: admin/partials/faq-dashboard.php:111
+msgid "e.g. Do you offer refunds if I am not satisfied?"
+msgstr ""
+
+#: admin/partials/faq-dashboard.php:116
+msgid "e.g. Yes, we offer a 14-day money-back guarantee for all our premium plans."
+msgstr ""
+
+#: admin/partials/faq-dashboard.php:120
+#: admin/partials/feedback-dashboard.php:151
+#: public/partials/chat-template.php:85
+msgid "Cancel"
+msgstr ""
+
+#: admin/partials/faq-dashboard.php:122
+msgid "Save FAQ"
+msgstr ""
+
+#: admin/partials/feedback-dashboard.php:37
+msgid "Add New Entry"
+msgstr ""
+
+#: admin/partials/feedback-dashboard.php:47
+msgid "Total Entries"
+msgstr ""
+
+#: admin/partials/feedback-dashboard.php:54
+#: admin/partials/feedback-dashboard.php:142
+msgid "Helpful (Like)"
+msgstr ""
+
+#: admin/partials/feedback-dashboard.php:61
+msgid "Unhelpful (Dislike)"
+msgstr ""
+
+#: admin/partials/feedback-dashboard.php:70
+msgid "Recent Feedback Data"
+msgstr ""
+
+#: admin/partials/feedback-dashboard.php:74
+msgid "View All Feedback"
+msgstr ""
+
+#: admin/partials/feedback-dashboard.php:83
+#: admin/partials/feedback-dashboard.php:130
+msgid "User Question"
+msgstr ""
+
+#: admin/partials/feedback-dashboard.php:84
+msgid "Ideal AI Response"
+msgstr ""
+
+#: admin/partials/feedback-dashboard.php:85
+#: admin/partials/feedback-dashboard.php:140
+msgid "Rating"
+msgstr ""
+
+#: admin/partials/feedback-dashboard.php:91
+msgid "No training data recorded yet."
+msgstr ""
+
+#: admin/partials/feedback-dashboard.php:99
+#: public/class-inteaili-public.php:371
+#: public/partials/chat-template.php:147
+msgid "Helpful"
+msgstr ""
+
+#: admin/partials/feedback-dashboard.php:101
+msgid "Unhelpful"
+msgstr ""
+
+#: admin/partials/feedback-dashboard.php:106
+msgid "Edit Entry"
+msgstr ""
+
+#: admin/partials/feedback-dashboard.php:109
+msgid "Delete Entry"
+msgstr ""
+
+#: admin/partials/feedback-dashboard.php:125
+msgid "Feedback Management"
+msgstr ""
+
+#: admin/partials/feedback-dashboard.php:131
+msgid "e.g., What are your business hours?"
+msgstr ""
+
+#: admin/partials/feedback-dashboard.php:135
+msgid "AI Response"
+msgstr ""
+
+#: admin/partials/feedback-dashboard.php:136
+msgid "e.g., We are open from 9 AM to 5 PM, Monday to Friday."
+msgstr ""
+
+#: admin/partials/feedback-dashboard.php:143
+msgid "Not Helpful (Dislike)"
+msgstr ""
+
+#: admin/partials/feedback-dashboard.php:146
+msgid "Positive ratings are used as examples for the AI to follow."
+msgstr ""
+
+#: admin/partials/feedback-dashboard.php:153
+msgid "Save Feedback"
+msgstr ""
+
+#: admin/partials/status-dashboard.php:38
+msgid "Copy System Report"
+msgstr ""
+
+#: admin/partials/status-dashboard.php:46
+msgid "Status of synchronized content and training data."
+msgstr ""
+
+#: admin/partials/status-dashboard.php:52
+msgid "Metric"
+msgstr ""
+
+#: admin/partials/status-dashboard.php:77
+msgid "Recommended Action:"
+msgstr ""
+
+#: admin/partials/status-dashboard.php:77
+msgid "The knowledge base is partially configured. Synchronize website content or upload training documents to ensure the AI provides accurate responses."
+msgstr ""
+
+#: admin/partials/status-dashboard.php:84
+msgid "Environment & System"
+msgstr ""
+
+#: admin/partials/status-dashboard.php:85
+msgid "Server requirements and plugin configuration for optimal performance."
+msgstr ""
+
+#: admin/partials/status-dashboard.php:91
+msgid "Requirement / Metric"
+msgstr ""
+
+#: admin/partials/status-dashboard.php:93
+msgid "Details / Value"
+msgstr ""
+
+#: admin/partials/status-dashboard.php:107
+#: admin/partials/status-dashboard.php:135
+#: admin/partials/status-dashboard.php:156
+#: admin/partials/status-dashboard.php:176
+msgid "Action Required"
+msgstr ""
+
+#: admin/partials/status-dashboard.php:107
+#: admin/partials/status-dashboard.php:135
+#: admin/partials/status-dashboard.php:156
+#: admin/partials/status-dashboard.php:176
+msgid "Pass"
+msgstr ""
+
+#: admin/partials/status-dashboard.php:131
+msgid "WooCommerce"
+msgstr ""
+
+#: admin/partials/status-dashboard.php:138
+msgid "Not detected"
+msgstr ""
+
+#: admin/partials/status-dashboard.php:188
+msgid "Configuration Alert:"
+msgstr ""
+
+#: admin/partials/status-dashboard.php:188
+msgid "One or more critical system requirements have not been met. Review the highlighted status items above to ensure full plugin compatibility and performance."
+msgstr ""
+
+#: admin/partials/support-dashboard.php:37
+msgid "Find guides on setup, syncing knowledge, and training your AI agent."
+msgstr ""
+
+#: admin/partials/support-dashboard.php:39
+msgid "Read Documentation"
+msgstr ""
+
+#: admin/partials/support-dashboard.php:47
+msgid "Technical Support"
+msgstr ""
+
+#: admin/partials/support-dashboard.php:48
+msgid "Facing technical issues? Submit a support request on our support form."
+msgstr ""
+
+#: admin/partials/support-dashboard.php:50
+msgid "Get Help"
+msgstr ""
+
+#: admin/partials/support-dashboard.php:58
+msgid "Feature Requests"
+msgstr ""
+
+#: admin/partials/support-dashboard.php:59
+msgid "Suggest new capabilities or integrations you would like to see in IntelliAgent AI."
+msgstr ""
+
+#: admin/partials/support-dashboard.php:61
+msgid "Request Feature"
+msgstr ""
+
+#: admin/partials/support-dashboard.php:71
+msgid "Direct Email Support"
+msgstr ""
+
+#: admin/partials/support-dashboard.php:73
+msgid "For partnership inquiries or urgent matters, email us directly at:"
+msgstr ""
+
+#: admin/partials/support-dashboard.php:79
+msgid "Contact Us Now"
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:59
+msgid "WP-Cron Status"
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:72
+msgid "Environment"
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:76
+msgid "Knowledge Base"
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:79
+msgid "Knowledge Base Sync"
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:80
+#: includes/class-inteaili-system-status.php:84
+msgid "Not Synced"
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:83
+msgid "Product Catalog Sync"
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:88
+msgid "Set ("
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:88
+msgid "characters)"
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:88
+msgid "Not Set"
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:91
+msgid "Next Scheduled Task"
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:97
+msgid "System Information"
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:100
+msgid "Plugin Version"
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:108
+msgid "API Key"
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:109
+msgid "Configured"
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:109
+msgid "Key Missing"
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:112
+msgid "MySQL Version"
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:116
+msgid "Database Tables"
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:117
+msgid "OK"
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:117
+msgid "Missing"
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:134
+msgid "WordPress Version"
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:136
+#: includes/class-inteaili-system-status.php:153
+msgid " (Update Required)"
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:151
+msgid "WooCommerce Version"
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:153
+msgid "Not Active"
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:166
+msgid "PHP Version"
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:181
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: includes/class-inteaili-system-status.php:197
+msgid "Max Execution Time"
+msgstr ""
+
+#: includes/llm/class-inteaili-llm-gemini.php:115
+msgid "Error: Gemini API key is missing."
+msgstr ""
+
+#. translators: %s = error message
+#: includes/llm/class-inteaili-llm-gemini.php:140
+#: includes/llm/class-inteaili-llm-openai.php:178
+#, php-format
+msgid "Connection Error: %s"
+msgstr ""
+
+#: includes/llm/class-inteaili-llm-gemini.php:146
+msgid "Unknown Gemini Error"
+msgstr ""
+
+#. translators: %s = error message from API
+#: includes/llm/class-inteaili-llm-gemini.php:148
+#, php-format
+msgid "Gemini API Error: %s"
+msgstr ""
+
+#. translators: %s = reason returned by Gemini API
+#: includes/llm/class-inteaili-llm-gemini.php:154
+#, php-format
+msgid "Gemini Blocked: The prompt was rejected (Reason: %s)."
+msgstr ""
+
+#: includes/llm/class-inteaili-llm-gemini.php:163
+msgid "Gemini Blocked: Response filtered due to safety concerns."
+msgstr ""
+
+#: includes/llm/class-inteaili-llm-gemini.php:171
+msgid "Error: Gemini failed to generate a response candidate."
+msgstr ""
+
+#: includes/llm/class-inteaili-llm-openai.php:150
+msgid "Error: OpenAI API key is missing. Please check your settings."
+msgstr ""
+
+#: includes/llm/class-inteaili-llm-openai.php:184
+msgid "Unknown OpenAI Error"
+msgstr ""
+
+#. translators: %s = API error message
+#: includes/llm/class-inteaili-llm-openai.php:186
+#, php-format
+msgid "OpenAI Error: %s"
+msgstr ""
+
+#: includes/llm/class-inteaili-llm-openai.php:193
+msgid "Error: No text returned."
+msgstr ""
+
+#: includes/llm/class-inteaili-llm-processor.php:92
+msgid "ECOMMERCE CAPABILITIES (PRODUCT RECOMMENDATION, & PRODUCT INFORMATION)"
+msgstr ""
+
+#: includes/llm/class-inteaili-llm-processor.php:93
+msgid ""
+"1. Recommend relevant products from the Knowledge Base.\n"
+"2. ALWAYS include the Product URL in your recommendation.\n"
+"3. Mention price and stock status. Always use the bold <b></b> as needed.\n"
+"4. Recommend products with URL and ID.\n"
+"5. CRITICAL: do not output any JSON, code blocks, or 'intent' labels in your response to the user. The system handles the logic internally. Just provide the conversational response."
+msgstr ""
+
+#: includes/llm/class-inteaili-llm-processor.php:142
+msgid "Error: LLM Model not properly initialized."
+msgstr ""
+
+#: includes/llm/class-inteaili-llm-processor.php:148
+msgid "Error: Internal configuration file missing."
+msgstr ""
+
+#: includes/llm/class-inteaili-llm-processor.php:185
+msgid "VERIFIED FAQ KNOWLEDGE (PRIORITIZE THESE ANSWERS)"
+msgstr ""
+
+#: includes/llm/class-inteaili-llm-processor.php:186
+msgid "When a user asks a question found here, use the verified answer provided."
+msgstr ""
+
+#: includes/llm/class-inteaili-llm-processor.php:190
+msgid "Verified Answer"
+msgstr ""
+
+#. translators: %s = content prefix label
+#: includes/scraper/class-inteaili-simple-html-dom.php:90
+msgid "[PAGE CONTENT]: "
+msgstr ""
+
+#. translators: %s = Product Name
+#: includes/woo/class-inteaili-woocommerce.php:107
+#, php-format
+msgid "[Product] %s"
+msgstr ""
+
+#: includes/woo/class-inteaili-woocommerce.php:134
+msgid "Name"
+msgstr ""
+
+#: includes/woo/class-inteaili-woocommerce.php:135
+msgid "Price"
+msgstr ""
+
+#: includes/woo/class-inteaili-woocommerce.php:136
+msgid "SKU"
+msgstr ""
+
+#: includes/woo/class-inteaili-woocommerce.php:137
+msgid "In Stock"
+msgstr ""
+
+#: includes/woo/class-inteaili-woocommerce.php:137
+msgid "Out of Stock"
+msgstr ""
+
+#: includes/woo/class-inteaili-woocommerce.php:138
+msgid "Description"
+msgstr ""
+
+#: includes/woo/class-inteaili-woocommerce.php:139
+msgid "Categories"
+msgstr ""
+
+#: includes/woo/class-inteaili-woocommerce.php:140
+msgid "Link"
+msgstr ""
+
+#: includes/woo/class-inteaili-woocommerce.php:143
+msgid "WOOCOMMERCE PRODUCT DATA"
+msgstr ""
+
+#: public/class-inteaili-public.php:80
+msgid "Empty message."
+msgstr ""
+
+#: public/class-inteaili-public.php:294
+msgid "New Conversation"
+msgstr ""
+
+#: public/class-inteaili-public.php:366
+#: public/partials/chat-template.php:119
+msgid "just now"
+msgstr ""
+
+#: public/class-inteaili-public.php:367
+msgid "m ago"
+msgstr ""
+
+#: public/class-inteaili-public.php:368
+msgid "h ago"
+msgstr ""
+
+#: public/class-inteaili-public.php:369
+#: public/partials/chat-template.php:141
+msgid "Copy"
+msgstr ""
+
+#: public/class-inteaili-public.php:370
+#: public/partials/chat-template.php:144
+msgid "Regenerate"
+msgstr ""
+
+#: public/class-inteaili-public.php:372
+#: public/partials/chat-template.php:150
+msgid "Not helpful"
+msgstr ""
+
+#: public/class-inteaili-public.php:374
+msgid "Start fresh?"
+msgstr ""
+
+#: public/class-inteaili-public.php:375
+msgid "This will clear your current messages so you can start a new conversation."
+msgstr ""
+
+#: public/class-inteaili-public.php:376
+msgid "End this chat?"
+msgstr ""
+
+#: public/class-inteaili-public.php:377
+msgid "This will clear your current messages and start a new conversation again."
+msgstr ""
+
+#: public/class-inteaili-public.php:378
+#: public/partials/chat-template.php:86
+msgid "Confirm"
+msgstr ""
+
+#: public/class-inteaili-public.php:379
+msgid "Processing..."
+msgstr ""
+
+#: public/class-inteaili-public.php:380
+msgid "Loading history..."
+msgstr ""
+
+#: public/class-inteaili-public.php:381
+msgid "No recent chats found."
+msgstr ""
+
+#: public/partials/chat-template.php:22
+msgid "Message..."
+msgstr ""
+
+#: public/partials/chat-template.php:39
+msgid "Menu"
+msgstr ""
+
+#: public/partials/chat-template.php:49
+msgid "Start a new chat"
+msgstr ""
+
+#: public/partials/chat-template.php:53
+msgid "End chat"
+msgstr ""
+
+#: public/partials/chat-template.php:57
+msgid "View recent chats"
+msgstr ""
+
+#: public/partials/chat-template.php:65
+msgid "Back to chat"
+msgstr ""
+
+#: public/partials/chat-template.php:75
+msgid "Loading..."
+msgstr ""
+
+#: public/partials/chat-template.php:82
+msgid "Clear conversation?"
+msgstr ""
+
+#: public/partials/chat-template.php:83
+msgid "This will delete your current chat history and start a fresh session."
+msgstr ""
+
+#. translators: %d: minutes ago
+#: public/partials/chat-template.php:123
+#, php-format
+msgid "%d min ago"
+msgid_plural "%d mins ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: AI Provider Name
+#: public/partials/chat-template.php:168
+#, php-format
+msgid "Powered by %s"
+msgstr ""
+
+#: public/partials/chat-template.php:177
+msgid "Send message"
+msgstr ""
+
+#: public/partials/chat-template.php:191
+msgid "Close"
+msgstr ""
+
+#: public/partials/chat-template.php:198
+msgid "Open Chat"
+msgstr ""

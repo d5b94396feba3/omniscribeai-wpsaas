@@ -1,0 +1,48 @@
+#adminmenu .toplevel_page_intelliagent-ai-lite .wp-menu-image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#adminmenu .toplevel_page_intelliagent-ai-lite .wp-menu-image img {
+    width: 22px !important;
+    height: 22px !important;
+    max-width: 22px !important;
+    max-height: 22px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    opacity: 0.9;
+    transition: opacity 0.2s ease-in-out;
+    image-rendering: -webkit-optimize-contrast;
+    background: linear-gradient(135deg, #000033 0%, #000033 100%);
+    border-radius: 3px;
+}
+
+#adminmenu li.toplevel_page_intelliagent-ai-lite ul.wp-submenu li a[href*="inteaili-upgrade-pro"] {
+	background-color: #24b03d !important;
+	margin: 6px 8px !important;
+	padding: 6px 10px !important;
+	border-radius: 4px;
+	transition: background-color 0.3s ease;
+}
+
+#adminmenu li.toplevel_page_intelliagent-ai-lite ul.wp-submenu li a[href*="inteaili-upgrade-pro"]:hover {
+	background-color: #1e8e31 !important;
+	color: #ffffff !important;
+}
+
+#adminmenu .inteaili-upgrade-pro-menu {
+	color: #ffffff !important;
+	font-weight: 600 !important;
+}
+
+#adminmenu li.toplevel_page_intelliagent-ai-lite ul.wp-submenu li a[href*="inteaili-upgrade-pro"]:focus,
+#adminmenu li.toplevel_page_intelliagent-ai-lite ul.wp-submenu li a[href*="inteaili-upgrade-pro"]:active {
+	color: #ffffff !important;
+	box-shadow: none !important;
+}
+
+#adminmenu .toplevel_page_intelliagent-ai-lite:hover .wp-menu-image img,
+#adminmenu .toplevel_page_intelliagent-ai-lite.wp-has-current-submenu .wp-menu-image img {
+    opacity: 1;
+}

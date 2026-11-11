@@ -1,0 +1,33 @@
+# Ignore everything in the root directory by default
+/*
+
+# Whitelist .gitignore itself
+!.gitignore
+
+# Whitelist wp-content directory structure
+!wp-content/
+wp-content/*
+
+# Whitelist themes and plugins directories completely
+!wp-content/themes/
+!wp-content/plugins/
+!wp-content/plugins/**
+!wp-content/themes/**
+
+# Explicitly exclude uploads, build caches, logs, and temporary files
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/debug.log
+
+# Exclude node modules and heavy build outputs inside custom plugins/themes
+**/node_modules/
+**/vendor/
+**/dist/
+
+# Exclude archives and database dumps
+*.zip
+*.tar.gz
+*.sql
+error_log
+wp-config.php

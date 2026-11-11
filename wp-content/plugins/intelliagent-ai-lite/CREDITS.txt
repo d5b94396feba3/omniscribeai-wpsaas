@@ -1,0 +1,24 @@
+IntelliAgent AI Lite Credits
+
+This plugin utilizes several high-quality open-source libraries to provide 
+advanced AI and RAG (Retrieval-Augmented Generation) functionality. 
+We gratefully acknowledge the following projects:
+
+1. Simple HTML DOM Parser
+   - Purpose: Parsing and cleaning website HTML content for knowledge base synchronization.
+   - License: MIT
+   - Source: https://sourceforge.net/projects/simplehtmldom/
+
+2. Font Awesome
+   - Purpose: Professional iconography for the chat widget and admin interface.
+   - License: SIL OFL 1.1 / MIT
+   - Source: https://fontawesome.com
+
+4. jQuery
+   - Purpose: DOM manipulation and AJAX handling for the real-time chat interface.
+   - License: MIT
+   - Source: https://jquery.com
+
+5. Large Language Model Providers
+   - Purpose: Core intelligence engines providing reasoning and response generation.
+   - Providers: OpenAI (GPT-5), Google (Gemini 3).

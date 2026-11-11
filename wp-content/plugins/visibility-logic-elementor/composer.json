@@ -1,0 +1,9 @@
+{
+  "require": {
+    "appsero/client": "^1.4"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  }
+}

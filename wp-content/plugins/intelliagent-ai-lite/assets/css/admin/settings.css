@@ -1,0 +1,330 @@
+:root {
+	--color-dark-blue: #1e3a8a;
+	--color-primary-blue: #3b82f6;
+}
+
+.inteaili-admin-wrap .inteaili-box {
+	background: #fff;
+	border: 1px solid #d1d5db !important;
+	border-radius: 8px !important;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.05) !important;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.inteaili-admin-wrap .postbox-header {
+	border-bottom: 1px solid #f3f4f6;
+	background: #f9fafb;
+	padding: 12px 20px;
+}
+
+.inteaili-admin-wrap .postbox-header h2 {
+	font-size: 16px !important;
+	font-weight: 600 !important;
+	color: #111827 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.inteaili-admin-wrap .form-table th {
+	font-weight: 600;
+	color: #374151;
+	width: 240px;
+	padding: 25px 10px 25px 20px;
+}
+
+.inteaili-admin-wrap .nav-tab-wrapper {
+	border-bottom: 1px solid #e5e7eb;
+	padding-top: 10px;
+}
+
+.inteaili-admin-wrap .nav-tab {
+	border: none;
+	background: transparent;
+	font-weight: 500;
+	color: #6b7280;
+	padding: 10px 20px;
+	margin: 0;
+	transition: all 0.2s;
+}
+
+.inteaili-admin-wrap .nav-tab-active {
+	color: #3b82f6 !important;
+	background: transparent !important;
+	border-bottom: 2px solid #3b82f6 !important;
+}
+
+.inteaili-admin-wrap .nav-tab:hover {
+	color: #3b82f6;
+}
+
+.status-badge {
+	padding: 4px 8px;
+	border-radius: 12px;
+	font-size: 12px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.status-pending { background: #fff0e5; color: #d63638; border: 1px solid #ffd6c2; }
+.status-approved { background: #edfaef; color: #00a32a; border: 1px solid #b8e6bf; }
+.status-rejected { background: #fcf0f1; color: #d63638; border: 1px solid #f5c2c7; }
+
+.inteaili-input {
+	border: 1px solid #d1d5db !important;
+	background-color: #ffffff !important;
+	padding: 10px 14px !important;
+	border-radius: 6px !important;
+	font-size: 14px !important;
+	color: #111827 !important;
+	transition: all 0.2s ease;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,0.05) !important;
+}
+
+.inteaili-input:focus {
+	border-color: #3b82f6 !important;
+	box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1) !important;
+	outline: none !important;
+}
+
+.inteaili-admin-wrap input.small-text.inteaili-input { width: 80px !important; }
+
+#inteaili_primary_color_hex {
+	background: #f0f0f1;
+	border-radius: 4px;
+	border: 1px solid #d1d5db;
+	color: #3c434a;
+	font-weight: 600;
+	min-width: 70px;
+	text-align: center;
+}
+
+.knowledge-sync-wrapper .postbox-header:hover { background: #f0f4f8; }
+.knowledge-sync-wrapper .toggle-icon { transition: transform 0.3s ease; color: #64748b; }
+.admin-progress-bar { width: 100%; height: 8px; background: #e5e7eb; border-radius: 4px; overflow: hidden; }
+.admin-progress-fill { height: 100%; background: linear-gradient(90deg, #3b82f6 0%, #2563eb 100%); box-shadow: 0 0 10px rgba(59, 130, 246, 0.5); }
+.sync-table-scroll::-webkit-scrollbar { width: 6px; }
+.sync-table-scroll::-webkit-scrollbar-track { background: #f1f5f9; }
+.sync-table-scroll::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+
+.field-changed { border-color: #fbbf24 !important; background-color: #fffbeb !important; box-shadow: 0 0 0 2px rgba(251, 191, 36, 0.1) !important; }
+.inteaili-theme-toggle-group { display: flex; gap: 16px; margin-top: 5px; }
+.inteaili-theme-card { flex: 1; max-width: 160px; cursor: pointer; position: relative; user-select: none; }
+.theme-card-inner { padding: 12px !important; border-radius: 12px !important; border: 2px solid #e5e7eb !important; background: #f1f5f9 !important; transition: all 0.25s ease; text-align: center; }
+.inteaili-theme-card.is-active .theme-card-inner { border-color: #3b82f6 !important; background: #eff6ff !important; box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15); }
+
+.mini-preview-canvas { width: 100%; height: 100px; border-radius: 6px; margin-bottom: 12px; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; }
+.mini-preview-canvas.theme-light { background: #ffffff; }
+.mini-preview-canvas.theme-dark { background: #0f172a; }
+.mini-widget { width: 60px; height: 80px; border-radius: 4px; display: flex; flex-direction: column; overflow: hidden; }
+.theme-light .mini-widget { background: #fff; border: 0.5px solid #e2e8f0; }
+.theme-dark .mini-widget { background: #1e293b; border: 0.5px solid #334155; }
+.mini-header { height: 12px; width: 100%; background: #3b82f6; }
+.mini-content { flex: 1; padding: 4px; display: flex; flex-direction: column; gap: 4px; }
+.mini-bubble-ai { height: 6px; border-radius: 2px; width: 70%; background: #f1f5f9; }
+.mini-bubble-user { height: 6px; border-radius: 2px; width: 50%; background: #3b82f6; align-self: flex-end; }
+
+.inteaili-settings-main-layout { display: flex; gap: 30px; align-items: flex-start; margin-top: 20px; }
+.inteaili-settings-flex-grow { flex: 1; min-width: 0; }
+
+.inteaili-settings-preview-sidebar {
+	width: 420px;
+	min-width: 420px;
+	position: sticky;
+	top: 60px;
+	height: 800px !important;
+	display: flex !important;
+	flex-direction: column !important;
+	background: #fff;
+	border: 1px solid #e2e8f0 !important;
+	border-radius: 24px !important;
+	box-shadow: 0 10px 25px rgba(0,0,0,0.05) !important;
+	overflow: hidden !important;
+}
+
+.inteaili-settings-preview-sidebar::before {
+	content: "PREVIEW";
+	display: block;
+	padding: 16px 24px;
+	border-bottom: 1px solid #f1f5f9;
+	color: #64748b;
+	font-size: 11px;
+	font-weight: 800;
+	letter-spacing: 0.1em;
+	text-align: left;
+}
+.inteaili-settings-preview-sidebar > span { display: none !important; }
+
+#inteaili-admin-preview-container {
+	flex: 1 !important;
+	position: relative !important;
+	padding: 20px !important;
+	background-color: #f8fafc !important;
+	background-image: radial-gradient(#e2e8f0 1px, transparent 1px) !important;
+	background-size: 20px 20px !important;
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+	overflow: hidden !important;
+}
+
+#inteaili-admin-preview-container #inteaili-c-w {
+	position: relative !important;
+	bottom: 0 !important;
+	right: 0 !important;
+	left: 0 !important;
+	top: 0 !important;
+	margin: 0 auto !important;
+	width: 100% !important;
+	max-width: 350px !important;
+	height: 600px !important;
+	/* border: 8px solid #1e293b !important; */
+	border-radius: 32px !important;
+	box-shadow: 0 20px 40px rgba(0,0,0,0.1) !important;
+	display: flex !important;
+	overflow: hidden !important;
+}
+
+#inteaili-admin-preview-container div {
+	position: relative !important;
+	bottom: auto !important;
+	right: auto !important;
+}
+
+#inteaili-admin-preview-container div .launcher-btn {
+	margin-top: 12px;
+}
+
+.inteaili-unsaved-bar-fixed {
+	display: none;
+	position: fixed;
+	top: 32px;
+	left: 160px;
+	right: 20px;
+	z-index: 9999;
+	background: #1e293b;
+	color: #fff;
+	padding: 12px 24px;
+	border-radius: 0 0 12px 12px;
+	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+	border: 1px solid #334155;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.inteaili-btn-save-sticky { background: #3b82f6 !important; border: none !important; height: 32px !important; padding: 0 20px !important; font-weight: 600 !important; }
+
+@media (max-width: 1200px) {
+	.inteaili-settings-main-layout { flex-direction: column; align-items: center; }
+	.inteaili-settings-preview-sidebar { width: 100%; max-width: 420px; position: static; }
+}
+
+.llm-settings-group tr th, .llm-settings-group tr td { padding: 20px !important; }
+.hndle { margin-left: 10px; }
+
+.knowledge-sync-wrapper .dashicons {
+	display: inline-block !important;
+	line-height: 1 !important;
+	height: 22px !important;
+	width: 22px !important;
+	font-size: 20px !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	vertical-align: middle;
+}
+
+#inteaili-main-submit {
+	background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%) !important;
+	border: none !important;
+	border-radius: 8px !important;
+	color: #fff !important;
+	font-size: 14px !important;
+	font-weight: 600 !important;
+	padding: 12px 32px !important;
+	height: auto !important;
+	line-height: 1.5 !important;
+	cursor: pointer !important;
+	transition: all .2s ease-in-out !important;
+	box-shadow: 0 4px 12px rgba(37, 99, 235, .2) !important;
+	text-shadow: none !important;
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	margin-top: 14px !important;
+	outline: 0 !important;
+	text-decoration: none !important;
+}
+
+#inteaili-main-submit:hover:not(:disabled) {
+	background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%) !important;
+	transform: translateY(-1px) !important;
+	box-shadow: 0 6px 16px rgba(37, 99, 235, .3) !important;
+}
+
+#inteaili-main-submit:active:not(:disabled) {
+	transform: translateY(0) !important;
+	box-shadow: 0 2px 4px rgba(37, 99, 235, .2) !important;
+}
+
+#inteaili-main-submit:disabled {
+	background: #d1d5db !important;
+	color: #9ca3af !important;
+	cursor: not-allowed !important;
+	box-shadow: none !important;
+	transform: none !important;
+	opacity: 0.7 !important;
+}
+
+.inteaili-input:disabled {
+	background-color: #f3f4f6 !important;
+	color: #6b7280 !important;
+	cursor: not-allowed !important;
+}
+
+.inteaili-settings-main-layout:has(.inteaili-settings-preview-sidebar) {
+	display: flex;
+	gap: 32px;
+	align-items: stretch;
+}
+
+.inteaili-settings-main-layout:has(.inteaili-settings-preview-sidebar) .inteaili-settings-flex-grow {
+	display: flex;
+	flex-direction: column;
+}
+
+.inteaili-settings-main-layout:has(.inteaili-settings-preview-sidebar) .settings-container form {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	flex: 1;
+}
+
+.inteaili-settings-main-layout:has(.inteaili-settings-preview-sidebar) .inteaili-box {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	margin-top: 0 !important;
+	min-height: 800px;
+	background: #fff;
+	border: 1px solid #d1d5db !important;
+	border-radius: 12px !important;
+}
+
+.inteaili-settings-main-layout:has(.inteaili-settings-preview-sidebar) .inteaili-box .inside {
+	flex: 1;
+	overflow-y: auto;
+}
+
+.inteaili-settings-main-layout:has(.inteaili-settings-preview-sidebar) #inteaili-main-submit {
+	margin-top: 12px !important;
+	align-self: flex-start;
+}
+
+@media (max-width: 1200px) {
+	.inteaili-settings-main-layout:has(.inteaili-settings-preview-sidebar) {
+		flex-direction: column;
+	}
+	.inteaili-settings-main-layout:has(.inteaili-settings-preview-sidebar) .inteaili-box {
+		min-height: auto;
+	}
+}

@@ -1,0 +1,262 @@
+.knowledge-sync-wrapper.postbox {
+	margin-top: 20px;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.inteaili-toggle-sync {
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #f9fafb;
+	padding: 12px 20px;
+	border-bottom: 1px solid #f3f4f6;
+}
+
+.inteaili-header-badges {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-right: 10px;
+}
+
+.inteaili-woo-active-badge {
+	background: #f0f9ff;
+	color: #0369a1;
+	border: 1px solid #bae6fd;
+	text-transform: none;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.inteaili-woo-active-badge .dashicons {
+	font-size: 14px;
+	width: 14px;
+	height: 14px;
+}
+
+.inteaili-woo-inactive-badge {
+	background: #fffbeb;
+	color: #92400e;
+	border: 1px solid #fde68a;
+	text-transform: none;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.inteaili-woo-inactive-badge .dashicons {
+	color: #d97706;
+	font-size: 14px;
+	width: 14px;
+	height: 14px;
+}
+
+.inteaili-summary-badge {
+	display: none;
+	background: #eff6ff;
+	color: #1e40af;
+}
+
+.inteaili-sync-content {
+	padding: 20px !important;
+}
+
+.inteaili-sync-loader {
+	text-align: center;
+	padding: 40px;
+}
+
+.inteaili-sync-loader p {
+	margin-top: 15px;
+	color: #64748b;
+	font-weight: 500;
+}
+
+.inteaili-progress-container {
+	margin-bottom: 25px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 12px;
+	border: 1px solid #e2e8f0;
+	box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+.inteaili-progress-info {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 12px;
+}
+
+.inteaili-progress-msg {
+	font-weight: 600;
+	color: #1e293b;
+	font-size: 14px;
+}
+
+.inteaili-progress-percent {
+	color: #3b82f6;
+	font-weight: 700;
+}
+
+.inteaili-sync-table th,
+.inteaili-sync-table td {
+	vertical-align: middle !important;
+}
+
+.inteaili-sync-table .col-source {
+	width: 55%;
+	padding-left: 15px !important;
+}
+
+.inteaili-sync-table .col-type {
+	width: 10%;
+}
+
+.inteaili-sync-table .col-status {
+	width: 35%;
+	text-align: right !important;
+	padding-right: 20px !important;
+}
+
+#sync-table-body td {
+	padding: 12px 10px !important;
+}
+
+#sync-table-body td:first-child {
+	padding-left: 15px !important;
+}
+
+#sync-table-body td:last-child {
+	text-align: right !important;
+	padding-right: 20px !important;
+}
+
+.sync-table-scroll {
+	max-height: 400px;
+	overflow-y: auto;
+	border: 1px solid #e2e8f0;
+	border-radius: 8px;
+}
+
+.sync-actions-footer {
+	margin-top: 20px;
+	display: flex;
+	gap: 12px;
+}
+
+.inteaili-sync-date {
+	font-size: 11px;
+	color: #64748b;
+	margin-top: 4px;
+	font-weight: 500;
+}
+
+.sync-status-card {
+	background: #fff;
+	border: 1px solid #e2e8f0;
+	border-radius: 12px;
+	padding: 20px;
+	margin-top: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.inteaili-card-left {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.status-indicator {
+	position: relative;
+	width: 45px;
+	height: 45px;
+	background: #f0fdf4;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.status-indicator .dashicons {
+	color: #16a34a;
+	font-size: 24px;
+	width: 24px;
+	height: 24px;
+}
+
+.indicator-dot {
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	width: 10px;
+	height: 10px;
+	background: #22c55e;
+	border-radius: 50%;
+	border: 2px solid #fff;
+}
+
+.inteaili-card-text h4 {
+	margin: 0;
+	font-size: 15px;
+	font-weight: 700;
+	color: #1e293b;
+}
+
+.inteaili-card-text p {
+	margin: 4px 0 0;
+	font-size: 12px;
+	color: #64748b;
+	font-weight: 500;
+}
+
+.inteaili-card-right {
+	text-align: right;
+	border-left: 1px solid #f1f5f9;
+	padding-left: 25px;
+}
+
+.inteaili-next-label {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #94a3b8;
+	font-weight: 700;
+	margin-bottom: 4px;
+}
+
+.inteaili-next-date {
+	font-family: 'SFMono-Regular', Consolas, monospace;
+	font-size: 13px;
+	color: #334155;
+	font-weight: 600;
+}
+
+.inteaili-sync-success {
+	display: none;
+	text-align: center;
+	padding: 20px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+.inteaili-success-inner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+.inteaili-success-inner .dashicons {
+	color: #16a34a;
+}
+
+.inteaili-success-inner span:last-child {
+	color: #166534;
+	font-weight: 600;
+}
