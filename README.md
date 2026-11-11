@@ -11,11 +11,11 @@ This repository contains the `wp-content` directory and theme/plugin codebase fo
 ## 🛠️ Stack & Technologies
 
 * **CMS**: WordPress
-* **AI Capabilities**: Multi-provider AI content generation algorithms
+* **AI Capabilities**: Multi-provider AI content generation
 * **Architecture**: WP SaaS framework with custom plugins and themes
 
 ## 📌 Usage & Deployment
 
 1. Clone this repository into your WordPress installation root under `wp-content`:
    ```bash
-   git clone [https://github.com/d5b94396feba3/omniscribeai-wpsaas.git](https://github.com/d5b94396feba3/omniscribeai-wpsaas.git) wp-content
+   git clone https://github.com/d5b94396feba3/omniscribeai-wpsaas.git
